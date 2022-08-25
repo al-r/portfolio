@@ -1,6 +1,6 @@
 
     .portfolio {
-        background: transparent url("../static/img/bg-portfolio.svg") no-repeat center right scroll;
+        background: transparent url("../img/bg-portfolio.svg") no-repeat center right scroll;
         background-size: cover;
     }
     .filters {
