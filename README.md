@@ -1,5 +1,5 @@
-# portfolio
+# Portfolio
 
 Work In Progress
 
-Transfer portfolio from Wordpress to React/Node
+Transfer portfolio from Wordpress to free hosting on Github
