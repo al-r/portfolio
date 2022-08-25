@@ -1,0 +1,136 @@
+#skills {
+    background: #ac2f20 url("../img/bg-skills.svg") no-repeat center center scroll;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%; }
+    #skills #pathnav {
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      background: transparent url("../img/pathnav.svg") no-repeat scroll center center;
+      display: table;
+      height: 315px;
+      left: 50%;
+      margin: -250px 0 0 0;
+      position: absolute;
+      width: 300px; }
+      @media screen and (max-width: 750px) {
+        #skills #pathnav {
+          margin: -280px 0 0 0; } }
+    #skills #dotsnav {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: all 250ms linear 500ms;
+      -moz-transition: all 250ms linear 500ms;
+      -ms-transition: all 250ms linear 500ms;
+      -o-transition: all 250ms linear 500ms;
+      transition: all 250ms linear 500ms; }
+    #skills #slideNumber {
+      color: #FFF;
+      display: table;
+      font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+      font-size: 26px;
+      margin: 10px auto 0 auto; }
+      @media screen and (max-width: 550px) {
+        #skills #slideNumber {
+          font-size: 16px;
+          margin: -5px auto 0 auto; } }
+    #skills #changeNumber {
+      font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+      font-size: 26px; }
+      @media screen and (max-width: 550px) {
+        #skills #changeNumber {
+          font-size: 16px; } }
+    #skills .singleSkill {
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      background: transparent url("../img/bgtext.svg") no-repeat scroll top center;
+      left: 50%;
+      margin: 0;
+      position: absolute;
+      text-align: center;
+      top: 145px; }
+      @media screen and (max-width: 750px) {
+        #skills .singleSkill {
+          top: 114px; } }
+      #skills .singleSkill.active {
+        -webkit-transition: all 250ms linear 750ms;
+        -moz-transition: all 250ms linear 750ms;
+        -ms-transition: all 250ms linear 750ms;
+        -o-transition: all 250ms linear 750ms;
+        transition: all 250ms linear 750ms;
+        background-size: 300px 350px;
+        height: 350px;
+        padding: 130px 30px 50px;
+        width: 300px; }
+        #skills .singleSkill.active h1, #skills .singleSkill.active h2, #skills .singleSkill.active p {
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity-ie)";
+          filter: alpha(opacity=100);
+          -moz-opacity: 1;
+          -khtml-opacity: 1;
+          opacity: 1;
+          -webkit-transition: all 200ms linear 1s;
+          -moz-transition: all 200ms linear 1s;
+          -ms-transition: all 200ms linear 1s;
+          -o-transition: all 200ms linear 1s;
+          transition: all 200ms linear 1s; }
+      #skills .singleSkill.disabled {
+        -webkit-transition: all 500ms linear 0s;
+        -moz-transition: all 500ms linear 0s;
+        -ms-transition: all 500ms linear 0s;
+        -o-transition: all 500ms linear 0s;
+        transition: all 500ms linear 0s;
+        background-size: 0px 0px;
+        height: 0;
+        padding: 0;
+        width: 0; }
+        #skills .singleSkill.disabled h1, #skills .singleSkill.disabled h2, #skills .singleSkill.disabled p {
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity-ie)";
+          filter: alpha(opacity=0);
+          -moz-opacity: 0;
+          -khtml-opacity: 0;
+          opacity: 0; }
+    #skills .controlSkill {
+      -webkit-transform: translate(-50%, 0);
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      margin: 0 0 0 100px;
+      position: absolute;
+      top: 180px;
+      left: 50%;
+      z-index: 100; }
+      @media screen and (max-width: 750px) {
+        #skills .controlSkill {
+          top: 150px; } }
+      #skills .controlSkill span {
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        border-radius: 30px;
+        background-color: #fe9a61;
+        color: #fff;
+        cursor: pointer;
+        display: block;
+        height: 50px;
+        font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+        font-size: 13px;
+        padding: 15px 10px;
+        width: 50px; }
+        #skills .controlSkill span:hover {
+          background-color: #FE7A2E; }
+        #skills .controlSkill span.prev {
+          margin-right: 70px; }
+        #skills .controlSkill span.next {
+          margin-top: -25px;
+          margin-left: 50px; }

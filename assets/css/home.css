@@ -1,0 +1,74 @@
+#home {
+    background: transparent url("../img/bg-home.png") no-repeat center right scroll;
+    background-size: contain;
+    padding: 100px 0;
+    position: relative;
+    width: 100%; }
+    @media screen and (max-width: 550px) {
+      #home {
+        background-position: center center;
+        background-size: cover; } }
+    #home #text1,
+    #home #text2,
+    #home #text3 {
+      color: #000;
+      font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 550px) {
+        #home #text1,
+        #home #text2,
+        #home #text3 {
+          font-size: 18px; } }
+      #home #text1 .highlight,
+      #home #text2 .highlight,
+      #home #text3 .highlight {
+        background-color: rgba(254, 154, 97, 0.85);
+        color: #fff;
+        font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+        font-size: 32px;
+        line-height: 40px; }
+        @media screen and (max-width: 550px) {
+          #home #text1 .highlight,
+          #home #text2 .highlight,
+          #home #text3 .highlight {
+            font-size: 18px; } }
+    #home #text1 {
+      margin: 12% 0 0; }
+    #home #text3 {
+      height: 32px;
+      overflow: hidden;
+      padding: 5px 0;
+      position: relative; }
+      @media screen and (max-width: 550px) {
+        #home #text3 {
+          height: 26px; } }
+    #home #textStatic {
+      display: inline-block;
+      font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+      height: 32px;
+      padding: 5px 0;
+      position: absolute;
+      top: 0; }
+    #home #textRandom {
+      background-color: transparent;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 92px;
+      -webkit-transition: top 1s;
+      -moz-transition: top 1s;
+      -ms-transition: top 1s;
+      -o-transition: top 1s;
+      transition: top 1s; }
+      @media screen and (max-width: 550px) {
+        #home #textRandom {
+          background-color: rgba(255, 255, 255, 0.75);
+          left: 52px; } }
+      #home #textRandom li {
+        display: block;
+        font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+        height: 32px;
+        padding: 5px 0;
+        white-space: nowrap; }
