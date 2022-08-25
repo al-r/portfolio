@@ -57,11 +57,27 @@
       position: absolute;
       top: 0;
       left: 92px;
-      -webkit-transition: top 1s;
-      -moz-transition: top 1s;
-      -ms-transition: top 1s;
-      -o-transition: top 1s;
-      transition: top 1s; }
+      -webkit-animation-name: textroll;
+      -webkit-animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-name: textroll;
+      -moz-animation-duration: 20s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: ease-in-out;
+      -ms-animation-name: textroll;
+      -ms-animation-duration: 20s;
+      -ms-animation-iteration-count: infinite;
+      -ms-animation-timing-function: ease-in-out;
+      -o-animation-name: textroll;
+      -o-animation-duration: 20s;
+      -o-animation-iteration-count: infinite;
+      -o-animation-timing-function: ease-in-out;
+      animation-name: textroll;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
       @media screen and (max-width: 550px) {
         #home #textRandom {
           background-color: rgba(255, 255, 255, 0.75);
@@ -72,3 +88,9 @@
         height: 32px;
         padding: 5px 0;
         white-space: nowrap; }
+
+@keyframes textroll {
+  0% {top: 0px}
+  90% {top: -546px}
+  100% {top: 0px}
+}
