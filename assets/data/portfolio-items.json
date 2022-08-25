@@ -1,0 +1,19 @@
+{
+    "portfolio_items": [
+        {
+            "company": "BBC",
+            "description": "test 1",
+            "img_src": "assets/img/posts/logo-ptk-grey-768x1122.png"
+        },
+        {
+            "company": "Codevember",
+            "description": "test 2",
+            "img_src": "assets/img/posts/logo-ptk-grey-768x1122.png"
+        },
+        {
+            "company": "Lime Creative",
+            "description": "test 3",
+            "img_src": "assets/img/posts/logo-ptk-grey-768x1122.png"
+        }
+    ]
+}

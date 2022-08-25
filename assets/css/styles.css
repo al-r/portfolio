@@ -1010,7 +1010,8 @@ body.loaded #loader {
   padding: 95px 10px 10px; }
 
 .wrapper {
-  width: 100%; }
+  width: 100%;
+}
 
 a {
   color: #fe9a61;
@@ -1725,4 +1726,15 @@ a.button:first-child {
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+select {
+  background-color: #ac2f20; 
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Century Gothic", "Apple Gothic", Verdana, Arial, sans-serif;
+  font-size: 20px;
+  padding: 5px 10px;
 }

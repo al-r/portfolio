@@ -26,5 +26,5 @@ function includeHTML() {
     }
 }
 
-// Execute command
+// Execute commands
 includeHTML();
