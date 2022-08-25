@@ -88,3 +88,27 @@
     .result__item a:hover {
         background-color: rgba(193, 53, 36, 0.75);
     }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #portfolio-item {
+        margin: 20px 0 0;
+    }
+
+    .tags-section {
+        margin: 20px 0 0;
+    }
+    .tags {
+        list-style-type: none;
+    }
+    .tag {
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+        margin: 0 3px 3px 0;
+        padding: 5px;
+    }
